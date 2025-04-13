@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<ns0:InitSessionSignedRequest xmlns:ns0="http://ksef.mf.gov.pl/schema/gtw/svc/online/auth/request/2021/10/01/0001">
+	<ns0:Context>
+		<ns1:Challenge xmlns:ns1="http://ksef.mf.gov.pl/schema/gtw/svc/online/types/2021/10/01/0001">20250324-CR-CF02B75C17-4645760E2B-DF</ns1:Challenge>
+		<ns1:Identifier xmlns:ns1="http://ksef.mf.gov.pl/schema/gtw/svc/online/types/2021/10/01/0001">
+			<ns2:Identifier xmlns:ns2="http://ksef.mf.gov.pl/schema/gtw/svc/types/2021/10/01/0001">9444994532</ns2:Identifier>
+		</ns1:Identifier>
+		<ns1:DocumentType xmlns:ns1="http://ksef.mf.gov.pl/schema/gtw/svc/online/types/2021/10/01/0001">
+			<ns2:Service xmlns:ns2="http://ksef.mf.gov.pl/schema/gtw/svc/types/2021/10/01/0001">KSeF</ns2:Service>
+			<ns2:FormCode xmlns:ns2="http://ksef.mf.gov.pl/schema/gtw/svc/types/2021/10/01/0001">
+				<ns2:SystemCode>FA (2)</ns2:SystemCode>
+				<ns2:SchemaVersion>1-0E</ns2:SchemaVersion>
+				<ns2:TargetNamespace>http://ksef.mf.gov.pl/wzor/2021/08/05/08051</ns2:TargetNamespace>
+				<ns2:Value>FA</ns2:Value>
+			</ns2:FormCode>
+		</ns1:DocumentType>
+		<ns1:Encryption xmlns:ns1="http://ksef.mf.gov.pl/schema/gtw/svc/online/types/2021/10/01/0001">
+			<ns2:EncryptionKey xmlns:ns2="http://ksef.mf.gov.pl/schema/gtw/svc/types/2021/10/01/0001">
+				<ns2:Encoding>Base64</ns2:Encoding>
+				<ns2:Algorithm>AES</ns2:Algorithm>
+				<ns2:Size>256</ns2:Size>
+				<ns2:Value>s3rtDSVyUxotyDmOz1ZALvaQBrFyBhLVxzh8cOIPG65bKKMU7CdSoFc2U2TQSu4SF7uZnqx7u6NpWYCXD1siqRwrORY3qWREFHdFFZP6+Gd7jV/Y4n+3r3rMBz+n+naRfJ9JeMWzTIjJrCV13BymEuH90g/BbmeijlXj5910Az0Ju2zasdAXdL0hPQg+IB6xw0FGUh2OW3tZHzf4XhJNTEMxdQ72h0B5IdS/VHmjdzW+1NEQqrce0qSmAwxER8LjjCWY0wd+nOGJCmSrJHf3lz2AzfkNIffiaGVhK2sV42YfApqwJ1fcnNXMplQa5KVoiEufa9Ugu06a7Ll6va7SVA==</ns2:Value>
+			</ns2:EncryptionKey>
+			<ns2:EncryptionInitializationVector xmlns:ns2="http://ksef.mf.gov.pl/schema/gtw/svc/types/2021/10/01/0001">
+				<ns2:Encoding>Base64</ns2:Encoding>
+				<ns2:Bytes>16</ns2:Bytes>
+				<ns2:Value>ABBH5/1l5BYZTCwAFMjkvw==</ns2:Value>
+			</ns2:EncryptionInitializationVector>
+			<ns2:EncryptionAlgorithmKey xmlns:ns2="http://ksef.mf.gov.pl/schema/gtw/svc/types/2021/10/01/0001">
+				<ns2:Algorithm>RSA</ns2:Algorithm>
+				<ns2:Mode>ECB</ns2:Mode>
+				<ns2:Padding>PKCS#1</ns2:Padding>
+			</ns2:EncryptionAlgorithmKey>
+			<ns2:EncryptionAlgorithmData xmlns:ns2="http://ksef.mf.gov.pl/schema/gtw/svc/types/2021/10/01/0001">
+				<ns2:Algorithm>AES</ns2:Algorithm>
+				<ns2:Mode>CBC</ns2:Mode>
+				<ns2:Padding>PKCS#7</ns2:Padding>
+			</ns2:EncryptionAlgorithmData>
+		</ns1:Encryption>
+		<ns1:Type xmlns:ns1="http://ksef.mf.gov.pl/schema/gtw/svc/online/types/2021/10/01/0001">SerialNumber</ns1:Type>
+	</ns0:Context>
+</ns0:InitSessionSignedRequest>
